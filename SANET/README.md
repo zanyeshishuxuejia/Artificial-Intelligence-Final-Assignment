@@ -1,10 +1,9 @@
 # 应用SANET和单目深度的任意风格迁移模型
 
-本代码复现了参考文献[1]的模型，并基于参考文献[2]对该模型利用图片深度信息进行改进
+本代码复现了参考文献[1]的模型
 
 参考文献:
 [1]`Arbitrary Style Transfer with Style-Attentional Networks`
-[2]`基于改进 AdaIN 的图像风格迁移`
 
 ---
 
