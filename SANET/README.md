@@ -38,6 +38,7 @@ parser.add_argument('--start_iter', type=float, default=0)
 
 **对一张图片进行风格迁移**：打开**eval.py**文件，修改parser中的模型路径，在main函数中修改要转风格的内容图片路径和风格图片路径，运行即可
 **利用电脑摄像头实时风格迁移**：直接运行**video.py**文件即可
+
 **对一段视频进行风格迁移**：打开**video.py**文件，在主函数调用tranfrom_video函数即可，需要输入视频路径和风格图片路径
 
 ---
