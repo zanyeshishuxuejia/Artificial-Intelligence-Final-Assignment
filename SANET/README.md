@@ -45,20 +45,34 @@ parser.add_argument('--start_iter', type=float, default=0)
 
 ## 关于各文件夹和文件的注解
 **experiments**：用来保存训练过程的编码器和解码器模型
+
 **input**：用来存储测试时需要风格迁移的图片
+
 **output**：用来存储测试时风格迁移后的图片
+
 **style**：用来存储测试时的风格图片
+
 **train**：用来存储训练时的风格图片
+
 **train_2014**：用来存储训练时没有风格的图片
+
 **Pytorch**：存有提取图片深度图的模型
 
 **transformer.pth**：预训练的编码器
+
 **decoder.pth**：预训练的解码器
+
 **optimizer.pth**：预训练的优化器
+
 **torch_model.pth**：预训练的深度提取网络
+
 **vgg_normalised.pth**：预训练的VGG19
+
 **depth_info.py**：用来提取图片深度
+
 **Train.py**：用来训练风格迁移网络
+
 **Eval.py**：用来测试风格迁移网络
+
 **video.py**：用来对视频进行风格迁移和实时风格迁移
 
