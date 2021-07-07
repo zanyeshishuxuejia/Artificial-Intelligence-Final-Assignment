@@ -5,5 +5,7 @@
 # SANET with depth information(Optimized)
 改进后的加上深度网络后的任意风格迁移模型
 （1）增加loss函数加快收敛速度
+
 （2）风格特征经过两次SANET，使风格迁移后的图有更多的风格细节
+
 需要到网盘下载vgg19和深度网络预训练模型。
